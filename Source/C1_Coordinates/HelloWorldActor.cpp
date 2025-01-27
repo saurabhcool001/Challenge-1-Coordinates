@@ -156,11 +156,7 @@ void AHelloWorldActor::DrawHelloWorldLogo(FVector StartLocation)
         };
 
     // Draw "HELLO" with different rotations
-    //DrawLetterH(CurrentLocation, 0); CurrentLocation.Y += LetterWidth + LetterSpacing;
     DrawLetterH(CurrentLocation, 90); CurrentLocation.Y += LetterWidth + LetterSpacing;
-    //DrawLetterH(CurrentLocation, 180); CurrentLocation.Y += LetterWidth + LetterSpacing;
-    //DrawLetterH(CurrentLocation, 270); CurrentLocation.Y += LetterWidth + LetterSpacing;
-    // Draw "HELLO" with different rotations
     DrawLetterE(CurrentLocation, 90); CurrentLocation.Y += LetterWidth + LetterSpacing;
     DrawLetterL(CurrentLocation, 90); CurrentLocation.Y += LetterWidth + LetterSpacing;
     DrawLetterL(CurrentLocation, 90); CurrentLocation.Y += LetterWidth + LetterSpacing;
